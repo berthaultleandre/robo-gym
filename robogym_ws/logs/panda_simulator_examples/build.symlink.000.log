@@ -1,0 +1,7 @@
+Symlinking /home/lberthault/robogym_ws/devel/lib/panda_simulator_examples/task_space_control_using_sim_only.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/panda_simulator_examples/move_robot.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/panda_simulator_examples/task_space_control_with_fri.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/panda_simulator_examples/cmake.lock
+Symlinking /home/lberthault/robogym_ws/devel/lib/pkgconfig/panda_simulator_examples.pc
+Symlinking /home/lberthault/robogym_ws/devel/share/panda_simulator_examples/cmake/panda_simulator_examplesConfig-version.cmake
+Symlinking /home/lberthault/robogym_ws/devel/share/panda_simulator_examples/cmake/panda_simulator_examplesConfig.cmake

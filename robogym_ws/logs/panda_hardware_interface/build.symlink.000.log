@@ -1,0 +1,3 @@
+Symlinking /home/lberthault/robogym_ws/devel/lib/pkgconfig/panda_hardware_interface.pc
+Symlinking /home/lberthault/robogym_ws/devel/share/panda_hardware_interface/cmake/panda_hardware_interfaceConfig.cmake
+Symlinking /home/lberthault/robogym_ws/devel/share/panda_hardware_interface/cmake/panda_hardware_interfaceConfig-version.cmake

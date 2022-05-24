@@ -1,0 +1,5 @@
+mir_robot/mir_navigation
+/home/lberthault/robogym_ws/devel/.private/mir_navigation/cmake.lock /home/lberthault/robogym_ws/devel/./cmake.lock
+/home/lberthault/robogym_ws/devel/.private/mir_navigation/lib/pkgconfig/mir_navigation.pc /home/lberthault/robogym_ws/devel/lib/pkgconfig/mir_navigation.pc
+/home/lberthault/robogym_ws/devel/.private/mir_navigation/share/mir_navigation/cmake/mir_navigationConfig.cmake /home/lberthault/robogym_ws/devel/share/mir_navigation/cmake/mir_navigationConfig.cmake
+/home/lberthault/robogym_ws/devel/.private/mir_navigation/share/mir_navigation/cmake/mir_navigationConfig-version.cmake /home/lberthault/robogym_ws/devel/share/mir_navigation/cmake/mir_navigationConfig-version.cmake

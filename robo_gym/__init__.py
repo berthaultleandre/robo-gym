@@ -85,6 +85,27 @@ register(
     entry_point='robo_gym.envs:AvoidanceRaad2022TestURRob',
 )
 
+# My UR envs
+
+register(
+    id='TrajectoryGenerationURSim-v0',
+    entry_point='robo_gym.envs:TrajectoryGenerationURSim',
+)
+
+register(
+    id='TrajectoryGenerationURRob-v0',
+    entry_point='robo_gym.envs:TrajectoryGenerationURRob',
+)
+
+register(
+    id='BasicAvoidanceURSim-v0',
+    entry_point='robo_gym.envs:BasicAvoidanceURSim',
+)
+
+register(
+    id='BasicAvoidanceURRob-v0',
+    entry_point='robo_gym.envs:BasicAvoidanceURRob',
+)
 
 
 

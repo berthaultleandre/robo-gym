@@ -1,0 +1,4 @@
+Symlinking /home/lberthault/robogym_ws/devel/lib/libpanda_sim_controllers.so
+Symlinking /home/lberthault/robogym_ws/devel/lib/pkgconfig/panda_sim_controllers.pc
+Symlinking /home/lberthault/robogym_ws/devel/share/panda_sim_controllers/cmake/panda_sim_controllersConfig.cmake
+Symlinking /home/lberthault/robogym_ws/devel/share/panda_sim_controllers/cmake/panda_sim_controllersConfig-version.cmake

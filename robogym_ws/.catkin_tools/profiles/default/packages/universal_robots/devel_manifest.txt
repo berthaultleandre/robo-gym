@@ -1,0 +1,2 @@
+universal_robot/universal_robots
+/home/lberthault/robogym_ws/devel/.private/universal_robots/cmake.lock /home/lberthault/robogym_ws/devel/./cmake.lock

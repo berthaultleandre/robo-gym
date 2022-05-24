@@ -1,0 +1,8 @@
+Symlinking /home/lberthault/robogym_ws/devel/lib/python3/dist-packages/mir100_robot_server/__init__.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/mir100_robot_server/robot_server.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/mir100_robot_server/robot_pose_publisher.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/mir100_robot_server/cmake.lock
+Symlinking /home/lberthault/robogym_ws/devel/lib/mir100_robot_server/cmd_vel_command_handler.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/pkgconfig/mir100_robot_server.pc
+Symlinking /home/lberthault/robogym_ws/devel/share/mir100_robot_server/cmake/mir100_robot_serverConfig-version.cmake
+Symlinking /home/lberthault/robogym_ws/devel/share/mir100_robot_server/cmake/mir100_robot_serverConfig.cmake

@@ -1,0 +1,6 @@
+devel_space: /home/lberthault/robogym_ws/devel
+install: false
+install_space: /home/lberthault/robogym_ws/install
+profile: default
+source_space: /home/lberthault/robogym_ws/src
+workspace: /home/lberthault/robogym_ws

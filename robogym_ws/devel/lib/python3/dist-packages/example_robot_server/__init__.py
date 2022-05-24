@@ -1,0 +1,1 @@
+/home/lberthault/robogym_ws/devel/.private/example_robot_server/lib/python3/dist-packages/example_robot_server/__init__.py

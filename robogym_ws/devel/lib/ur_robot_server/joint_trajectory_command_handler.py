@@ -1,0 +1,1 @@
+/home/lberthault/robogym_ws/devel/.private/ur_robot_server/lib/ur_robot_server/joint_trajectory_command_handler.py

@@ -1,0 +1,15 @@
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _sdc21x0_generate_messages_check_deps_Encoders
+[  0%] Built target _sdc21x0_generate_messages_check_deps_MotorCurrents
+[  0%] Built target _sdc21x0_generate_messages_check_deps_Flags
+[  0%] Built target _sdc21x0_generate_messages_check_deps_StampedEncoders
+[ 30%] Built target sdc21x0_generate_messages_nodejs
+[ 34%] Built target sdc21x0_generate_messages_cpp
+[ 69%] Built target sdc21x0_generate_messages_lisp
+[ 78%] Built target sdc21x0_generate_messages_py
+[100%] Built target sdc21x0_generate_messages_eus
+[100%] Built target sdc21x0_generate_messages

@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:144 (message):
+  Error: Bullet > 2.82 not found, please install libbullet2.82-dev.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:24 (find_package)
+
+

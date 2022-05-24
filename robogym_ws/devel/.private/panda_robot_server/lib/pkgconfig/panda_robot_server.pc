@@ -1,0 +1,8 @@
+prefix=/home/lberthault/robogym_ws/devel/.private/panda_robot_server
+
+Name: panda_robot_server
+Description: Description of panda_robot_server
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

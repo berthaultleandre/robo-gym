@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lberthault/robogym_ws/install/setup.sh

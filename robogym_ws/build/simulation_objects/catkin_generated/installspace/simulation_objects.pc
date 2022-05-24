@@ -1,0 +1,8 @@
+prefix=/home/lberthault/robogym_ws/install
+
+Name: simulation_objects
+Description: Description of simulation_objects
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

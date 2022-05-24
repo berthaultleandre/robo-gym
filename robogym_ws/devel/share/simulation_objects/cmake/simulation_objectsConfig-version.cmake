@@ -1,0 +1,1 @@
+/home/lberthault/robogym_ws/devel/.private/simulation_objects/share/simulation_objects/cmake/simulation_objectsConfig-version.cmake

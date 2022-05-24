@@ -217,7 +217,7 @@ class URBaseEnv(gym.Env):
     def get_rs_state(self):
         return self.rs_state
 
-    def render():
+    def render(*args):
         pass
     
 

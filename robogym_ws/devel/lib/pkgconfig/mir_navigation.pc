@@ -1,0 +1,1 @@
+/home/lberthault/robogym_ws/devel/.private/mir_navigation/lib/pkgconfig/mir_navigation.pc

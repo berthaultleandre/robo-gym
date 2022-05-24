@@ -1,0 +1,9 @@
+Symlinking /home/lberthault/robogym_ws/devel/lib/mir_driver/mir_bridge.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/mir_driver/rep117_filter.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/mir_driver/fake_mir_joint_publisher.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/mir_driver/tf_remove_child_frames.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/mir_driver/cmake.lock
+Symlinking /home/lberthault/robogym_ws/devel/lib/python3/dist-packages/mir_driver/__init__.py
+Symlinking /home/lberthault/robogym_ws/devel/lib/pkgconfig/mir_driver.pc
+Symlinking /home/lberthault/robogym_ws/devel/share/mir_driver/cmake/mir_driverConfig-version.cmake
+Symlinking /home/lberthault/robogym_ws/devel/share/mir_driver/cmake/mir_driverConfig.cmake
