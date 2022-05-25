@@ -14,7 +14,7 @@ from robo_gym.envs.ur.ur_base_avoidance_env import URBaseAvoidanceEnv
 
 import sys
 sys.path.insert(1, '/home/lberthault/rl-baselines3-zoo/scripts')
-from ur_plot_utils import Y_SUCCESS, Y_COLLISION, Y_MAX_STEPS_EXCEEDED
+from ur_plot_utils import KEY_SUCCESS, KEY_COLLISION, KEY_MAX_STEPS_EXCEEDED
 
 # base, shoulder, elbow, wrist_1, wrist_2, wrist_3
 JOINT_POSITIONS = [-1.57, -1.31, -1.31, -2.18, 1.57, 0.0]
@@ -126,14 +126,14 @@ class BasicAvoidanceUR(URBaseAvoidanceEnv):
         if collision:
             done = True
             info['is_success'] = False
-            info['final_status'] = Y_COLLISION
+            info['final_status'] = KEY_COLLISION
             info['target_coord'] = obstacle_coord
             self.last_position_on_success = []
 
         elif self.elapsed_steps >= self.max_episode_steps:
             done = True
             info['is_success'] = True
-            info['final_status'] = Y_SUCCESS
+            info['final_status'] = KEY_SUCCESS
             info['target_coord'] = obstacle_coord
             self.last_position_on_success = []
 

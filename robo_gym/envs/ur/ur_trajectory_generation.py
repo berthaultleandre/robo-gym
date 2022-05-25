@@ -11,7 +11,7 @@ from robo_gym.envs.ur.ur_base_env import URBaseEnv
 
 import sys
 sys.path.insert(1, '/home/lberthault/rl-baselines3-zoo/scripts')
-from ur_plot_utils import Y_SUCCESS, Y_COLLISION, Y_MAX_STEPS_EXCEEDED
+from ur_plot_utils import KEY_SUCCESS, KEY_COLLISION, KEY_MAX_STEPS_EXCEEDED
 
 # base, shoulder, elbow, wrist_1, wrist_2, wrist_3
 JOINT_POSITIONS = [0.0, -2.5, 1.5, -1.5, -1.4, 0.0]
@@ -269,7 +269,7 @@ class TrajectoryGenerationUR(URBaseEnv):
         self.previous_action = self.add_fixed_joints(action)
 
         if done:
-            if info['final_status'] == Y_SUCCESS:
+            if info['final_status'] == KEY_SUCCESS:
                 self.successful_ending = True
 
                 joint_positions = []
@@ -309,21 +309,18 @@ class TrajectoryGenerationUR(URBaseEnv):
         if euclidean_dist_3d <= DISTANCE_THRESHOLD:
             reward = g_w * 1
             done = True
-            info['is_success'] = True
-            info['final_status'] = Y_SUCCESS
+            info['final_status'] = KEY_SUCCESS
             info['target_coord'] = target_coord
 
         if rs_state['in_collision']:
             reward = c_w * 1
             done = True
-            info['is_success'] = False
-            info['final_status'] = Y_COLLISION
+            info['final_status'] = KEY_COLLISION
             info['target_coord'] = target_coord
 
         elif self.elapsed_steps >= self.max_episode_steps:
             done = True
-            info['is_success'] = False
-            info['final_status'] = Y_MAX_STEPS_EXCEEDED
+            info['final_status'] = KEY_MAX_STEPS_EXCEEDED
             info['target_coord'] = target_coord
         
         return reward, done, info
